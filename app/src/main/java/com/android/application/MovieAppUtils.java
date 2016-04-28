@@ -4,7 +4,8 @@ public class MovieAppUtils
 {
 	
 	// for movies api request
-	private final static String movieAPIKey = "ef0fd15ea0fa078fcaf348b815ae8844";
+	// TODO Add your Movie Api Key
+	private final static String movieAPIKey = " ADD YOUR MOVIE API KEY HERE";
 	private final static String movieBaseUrl = "http://api.themoviedb.org/3/movie/";
 	public final static String requestNowPlayingMovies = movieBaseUrl+"now_playing?api_key="+movieAPIKey;
 	public final static String requestPopularMovies = movieBaseUrl+"popular?api_key="+movieAPIKey;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/fragment_detail.xml" />
+        <ignore path="res/layout/gird_row.xml" />
+        <ignore path="res/layout/review_row.xml" />
+        <ignore path="res/layout/trailer_row.xml" />
+    </issue>
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="OldTargetApi">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="RtlHardcoded" severity="ignore" />
+    <issue id="UseCompoundDrawables" severity="ignore" />
+    <issue id="UselessParent">
+        <ignore path="res/layout/fragment_detail.xml" />
+    </issue>
+</lint>

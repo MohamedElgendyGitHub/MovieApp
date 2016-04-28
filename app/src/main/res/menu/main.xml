@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.movieapp.MainActivity" >
+
+    
+    
+ 
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/action_settings_popular"
+                    android:checked="false"
+                    android:title="@string/action_settings_popular"/>
+                <item
+                    android:id="@+id/action_settings_topRated"
+                    android:checked="false"
+                    android:title="@string/action_settings_topRated"/>
+                <item
+                    android:id="@+id/action_settings_favourite"
+                    android:checked="false"
+                    android:title="@string/action_settings_favourite"/>
+            </group>
+        </menu>
+    </item>
+    
+    
+    
+</menu>
